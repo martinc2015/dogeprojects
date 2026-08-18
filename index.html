@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Menú y portal de acceso directo a los proyectos del ecosistema Doge: SnakeDoge, ChatDoge y AstronomíaDoge.">
+  <title>Doge Projects Hub | Portal de Aplicaciones</title>
+  
+  <!-- Tipografías Google Fonts: Outfit (Titulares) + Inter (Cuerpo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Estilos principales -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐕</text></svg>">
+</head>
+<body>
+  <!-- Fondo ambiental interactivo -->
+  <div class="bg-ambient">
+    <div class="ambient-blob-1"></div>
+    <div class="ambient-blob-2"></div>
+  </div>
+
+  <div class="app-container">
+    <!-- Encabezado Principal -->
+    <header class="main-header">
+      <div class="logo-badge">
+        <span>🐕</span> Doge Ecosystem
+      </div>
+      <h1 class="main-title">Portal de Proyectos <span class="highlight">Doge</span></h1>
+      <p class="main-subtitle">Accede y explora todos los proyectos web y aplicaciones desarrolladas en un solo lugar.</p>
+    </header>
+
+    <!-- Contenedor dinámico de Proyectos -->
+    <main>
+      <section class="projects-grid" id="projects-grid" aria-label="Lista de Proyectos Doge">
+        <!-- Renderizado dinámicamente mediante projects.js -->
+      </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="main-footer">
+      <p>Doge Projects Hub &copy; 2026 • Much Code, Very Web, So Wow 🚀</p>
+    </footer>
+  </div>
+
+  <!-- Lógica y datos de proyectos -->
+  <script src="projects.js"></script>
+</body>
+</html>
