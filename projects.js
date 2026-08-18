@@ -65,6 +65,22 @@ const projects = [
       label: "Evento",
       value: "Mundial 🏆"
     }
+  },
+  {
+    id: "sonbot",
+    title: "Son Bot",
+    category: "Bot / Utilidad",
+    description: "Un nuevo bot interactivo para expandir el ecosistema Doge. ¡Explora sus funcionalidades!",
+    url: "#",
+    tags: ["Bot", "IA", "Herramientas"],
+    icon: "🤖",
+    badge: "Nuevo",
+    themeColor: "#ec4899", // Rosa vibrante
+    backgroundImage: "",
+    stats: {
+      label: "Estado",
+      value: "Beta ⚡"
+    }
   }
 ];
 
