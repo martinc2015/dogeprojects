@@ -71,7 +71,7 @@ const projects = [
     title: "Son Bot",
     category: "Bot / Utilidad",
     description: "Un nuevo bot interactivo para expandir el ecosistema Doge. ¡Explora sus funcionalidades!",
-    url: "#",
+    url: "https://martinc2015.github.io/iachatdoge/",
     tags: ["Bot", "IA", "Herramientas"],
     icon: "🤖",
     badge: "Nuevo",
